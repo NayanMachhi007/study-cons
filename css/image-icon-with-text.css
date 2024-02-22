@@ -1,6 +1,4 @@
-.image-icon-with-text{
-    font-family: monospace;
-}
+
 .image-icon-with-text__content{
     height: 383.39px;
     margin: auto;
@@ -20,10 +18,10 @@
 .stream-card-container_card-container
 {
     padding: 16px;
-    border: 1px solid black;
     border-radius: 5px;
     width: 245px;
     height: 250px;
+    background-color: var(--alabaster-background);
 }
 .stream-card-container_style{
     padding: 0 8px;
@@ -45,22 +43,24 @@
     content: "";
     height: 62px;
     width: 62px;
-    border: 1px solid black;
+    border: 1px solid var(--pumice-txt);
     border-radius: 50%;
     position: absolute;
     top: 0;
     left: 0;
 }
 .image-icon-with-text__icon-container i{
-    font-size: 40px;
+    font-size: 34px;
     line-height: 64px;
     left: 10px;
+    color: var(--cinnabar);
 }
 .image-icon-with-text__head-container{
-    padding: 5px 18px;
+    padding: 5px 10px;
 }
 .stream-card-container_heading{
     font-size:20px;
+    font-weight: 600;
 }
 .stream-card-container_colleges-number{
     font-size: 14px;
@@ -76,9 +76,13 @@
 .image-icon-with-text__stream-card-container li{
     padding:8px 10px 8px 0;
     font-size: 14px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--pumice-txt);
+    font-weight: 500;
 }
 .image-icon-with-text__stream-card-container li:nth-child(3){
     border-bottom: none;
 
+}
+.stream-card-container_card-container li a:hover{
+    color: var(--cinnabar);
 }
