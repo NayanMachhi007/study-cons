@@ -1,6 +1,10 @@
 :root {
-    --blue: #1e90ff;
-    --white: #ffffff;
+    --elephant: #104547;
+    --cinnabar: #E13833;
+    --sea-pink: #F0A19F;
+    --outer-space-heading: #262E2E;
+    --pumice-txt: #C9CAC9;
+    --alabaster-background: #FAFAFA;
 }
 
 * {
@@ -12,6 +16,7 @@
 html {
     font-size: 10px;
 }
+
 
 a {
     text-decoration: none;
