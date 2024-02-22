@@ -1,3 +1,35 @@
-nav{
-    height: 100vh;
+.navigation {
+    background: var(--alabaster-background);
+}
+
+.navigation .navigation__logo {
+    height: 80px;
+    width: 80px;
+    margin-left: 30px;
+}
+
+.navigation .navigation__logo img {
+    mix-blend-mode: multiply;
+}
+
+.navigation .navigation__link {
+    display: flex;
+    justify-content: right;
+}
+
+.navigation .navigation__link li {
+    padding: 0px 20px;
+}
+
+.navigation .navigation__link li a {
+    padding: 40px 0px;
+    display: inline-block;
+    color: var(--black);
+    font-size: 1.7rem;
+    font-weight: 700;
+    transition: 0.8s;
+}
+
+.navigation .navigation__link li a:hover {
+    color: var(--cinnabar);
 }
