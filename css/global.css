@@ -17,6 +17,11 @@
     box-sizing: border-box;
 }
 
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 10px;
     font-family: "Montserrat", sans-serif;
