@@ -56,7 +56,7 @@ p {
     font-weight: 400;
 }
 
-h1{
+h1 {
     padding-top: 2rem;
     font-size: 4.5rem;
     font-weight: 700;
@@ -67,7 +67,7 @@ h5 {
     font-weight: 400;
 }
 
-h6{
+h6 {
     padding-top: 2rem;
     font-size: 1.4rem;
 }
@@ -149,32 +149,37 @@ h6{
     margin: 1rem;
 }
 
-.heading-red{
-color: var(--cinnabar);
-font-weight: 600;
+.heading-red {
+    color: var(--cinnabar);
+    font-weight: 600;
 }
 
-.sub-link{
- color: var(--black);  
- transition: 0s;
- 
+.sub-link {
+    color: var(--black);
+    transition: 0s;
+
 }
 
-.sub-link:hover{
-    color:var(--cinnabar);
+.sub-link:hover {
+    color: var(--cinnabar);
     font-weight: 800;
     transition: 0.6s;
 }
 
-.header-link{
+.header-link {
     padding-top: 2rem;
     display: inline-block;
     transition: 0;
-    
+
 }
 
-.header-link:hover{
+.header-link:hover {
     color: var(--cinnabar);
     font-weight: 800;
     transition: 0.5s;
+}
+
+.breadcrumb-link-span {
+    color: var(--cinnabar);
+    font-size: 1rem;
 }
