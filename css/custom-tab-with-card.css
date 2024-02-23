@@ -14,6 +14,14 @@
 .custom-tab-with-card__content_heading h2 span{
         color: var(--cinnabar);
 }
+svg{
+    transition: 0;
+
+}
+.custom-tab-with-card__card-container-item:hover svg{
+    fill: var(--cinnabar);
+    transition: 10s ease;
+}
 .custom-tab-with-card__card-list{
     display: flex;
     flex-wrap: wrap;
@@ -57,6 +65,7 @@
 .custom-tab-with-card__card-container-item_btn-container a:hover{
     color: var(--white);
     background-color: var(--cinnabar);
+    transition: .5s ease;
 }
 .custom-tab-with-card__card-container_footer{
     margin: 10px 0 0 20px;
