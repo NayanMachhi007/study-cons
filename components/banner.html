@@ -6,21 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banner</title>
     <link rel="stylesheet" href="/css/banner.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 
 <body>
 
+    <!-- Swiper -->
+    <!-- <section class="banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="/images/dummy.png" alt="dummy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/dummy.png" alt="dummy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/dummy.png" alt="dummy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/dummy.png" alt="dummy">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="/images/dummy.png" alt="dummy">
+                            </div>
 
-  
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
 
 
 
+    <h2 class="timer count-title count-number" data-to="125000" data-speed="3000">125,000</h2>
 
-
-    <!-- Scripting Section -->
-    <script src="/js/banner.js"></script>
+    <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
