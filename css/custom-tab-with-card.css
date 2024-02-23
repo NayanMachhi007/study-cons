@@ -27,7 +27,7 @@
 }
 .custom-tab-with-card__card-container-item_header{
     padding: 13px 0 0 24px;
-    background-color: var(--pumice-txt);
+    background-color: var(--alabaster-background);
 }
 .card-container-item_header-text{
     margin-top: 12px;
