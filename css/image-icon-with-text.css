@@ -8,6 +8,9 @@
 .image-icon-with-text__content__heading{
     padding: 0 15px;
 }
+.image-icon-with-text__content__heading h2 span{
+    color: var(--cinnabar);
+}
 .image-icon-with-text__content h2{
     font-size: 28px;
     margin-bottom: 24px;
@@ -22,6 +25,7 @@
     width: 245px;
     height: 250px;
     background-color: var(--alabaster-background);
+    box-shadow:0px 0px 5px var(--cinnabar);
 }
 .stream-card-container_style{
     padding: 0 8px;
@@ -51,7 +55,7 @@
 }
 .image-icon-with-text__icon-container i{
     font-size: 34px;
-    line-height: 64px;
+    line-height: 62px;
     left: 10px;
     color: var(--cinnabar);
 }
@@ -77,7 +81,7 @@
     padding:8px 10px 8px 0;
     font-size: 14px;
     border-bottom: 1px solid var(--pumice-txt);
-    font-weight: 500;
+    font-weight: 600;
 }
 .image-icon-with-text__stream-card-container li:nth-child(3){
     border-bottom: none;
