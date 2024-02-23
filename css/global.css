@@ -149,21 +149,25 @@ color: var(--cinnabar);
 
 .sub-link{
  color: var(--black);  
- transition: 0.6s; 
+ transition: 0s;
+ 
 }
 
 .sub-link:hover{
     color:var(--cinnabar);
     font-weight: 800;
+    transition: 0.6s;
 }
 
 .header-link{
     padding-top: 2rem;
     display: inline-block;
-    transition: 0.5s;
+    transition: 0;
+    
 }
 
 .header-link:hover{
     color: var(--cinnabar);
     font-weight: 800;
+    transition: 0.5s;
 }
