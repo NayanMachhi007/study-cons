@@ -1,7 +1,167 @@
+.sign-post-card-btn_style{
+    padding: 36px 0;
+
+}
+.sign-post-card-btn_heading{
+    padding: 0 5px;
+    margin-bottom: 24px;
+}
 .sign-post-card-btn_heading h2 span{
     color: var(--cinnabar);
 }
-.card-outer-cell__card-list{
-    width: 358px;
+.sign-post-card-btn_heading h2{
+    font-size: 28px;
+}
+.sign-post-card-btn__card-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.sign-post-card-btn__card-outer-cell{
+    padding: 5px;
+}
+.sign-post-card-btn__card-item{
+    width: 342px;
     height: 368px;
+    border: 1px solid red;
+}
+.sign-post-card-btn_header-img{
+    position: relative;
+    
+}
+.sign-post-card-btn_header-img img{
+    width: 340px;
+    height: 145px;
+    object-fit: cover;
+}
+.sign-post-card-btn__header-img_para{
+    padding-top: 5px;
+    display: flex;
+    justify-content: end;
+}
+.sign-post-card-btn__header-img_para p{
+    padding: 3px 3px 3px 22px;
+    width: 62px;   
+    border: 1px solid black;
+    border-radius: 20px;
+    position: relative;    
+
+}
+
+.sign-post-card-btn__header-img_para p::before{
+    content: "cd";
+    width: 26px;
+    height: 26px;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    top: -1px;
+    right: 40px;
+    background-color: var(--cinnabar);
+    color: var(--white);
+    border-radius: 20px;
+    padding: 3px;
+}
+.sign-post-card-btn_header-img a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: var(--white);
+
+}
+.sign-post-card-btn__header-img_img-and-para{
+    margin-top: 36px;
+    padding: 0 15px 18px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-post-card-btn__header-img_img-and-para img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.sign-post-card-btn__header-img_img-and-para p{
+    padding: 0 10px;
+}
+.sign-post-card-btn__header-img_img-and-para p:nth-child(1){
+    font-size: 16px;
+    font-weight: 600;
+}
+.sign-post-card-btn__header-img_img-and-para p:nth-child(2){
+    font-size: 14px;
+    padding-top: 5px;  
+}
+
+/* sign-post-card-btn__filed-ranking_reviews */
+.font-16{
+    font-size: 16px;
+}
+.font-14{
+    font-size: 14px;
+}
+
+.sign-post-card-btn__field-ranking-reviews{
+    margin: auto;
+    width: 95%;
+    padding: 8px 0px;
+    border-bottom: 1px solid var(--pumice-txt);
+}
+.sign-post-card-btn__filed-ranking-reviews-content{
+   display: flex;
+   justify-content: space-between; 
+}
+.filed-ranking-reviews-content__name-fees p:nth-child(1){
+    margin-bottom: 8px;
+}
+.filed-ranking-reviews-content__name-fees p:nth-child(1) a{
+    font-weight: 600;
+}
+.filed-ranking-reviews-content__name-fees p:nth-child(1) a:hover{
+    color: var(--cinnabar);
+}
+.filed-ranking-reviews-content__name-fees p span{
+    color: var(--cinnabar);
+}
+
+.filed-ranking-reviews-content__rank-reviews p:nth-child(1){
+    font-weight: 600;
+    text-align: end;
+    margin-bottom: 8px;
+
+}
+
+.filed-ranking-reviews-content__rank-reviews i{
+    color: var(--cinnabar);
+    padding-right: 5px;
+}
+
+/* <!-- weekly ranking course details--> */
+.sign-post-card-btn__card-item_weelkyrank-course-details{
+    width: 95%;
+    margin: auto;
+    /* padding: 8px 0; */
+    overflow: hidden;
+}
+.sign-post-card-btn__card-item_weelkyrank-course-details ul li{
+    padding: 10px 0;
+    border-bottom: 1px solid var(--pumice-txt);
+
+}
+.sign-post-card-btn__card-item_weelkyrank-course-details ul li:nth-child(1){
+    width: 10000px;
+}
+.sign-post-card-btn__card-item_weelkyrank-course-details ul li a div p{
+    font-weight: 600;
+}
+.sign-post-card-btn__card-item_weelkyrank-course-details ul li a:hover{
+    color: var(--cinnabar);
+}
+.sign-post-card-btn__card-item_weelkyrank-course-details ul li a div{
+    display: flex;
+    justify-content: space-between;
+    line-height: 14px;
+    padding-right: 15px;
 }
