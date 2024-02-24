@@ -44,6 +44,7 @@
     left: 0;
     visibility: hidden;
     top: 100px;
+    z-index: 999;
     
 
 }
@@ -86,4 +87,5 @@
 
 .navigation .navigation__link li .navigation-link__sub-nav .sub-right-nav-image img {
     border-radius: 0rem 0rem 9rem 0rem;
+    object-fit: cover;
 }
