@@ -41,6 +41,7 @@
     border-radius: 50%;
     box-sizing: border-box;
     box-shadow: 0px 2px 2px 2px #cfcece;
+    cursor: pointer;
 }
 
 .icons i {
@@ -81,6 +82,10 @@ font-size: 15px;
   }
  td,  th {
     padding: 4px;
+<<<<<<< HEAD
+    cursor: pointer;
+=======
+>>>>>>> main
 
   }
   
