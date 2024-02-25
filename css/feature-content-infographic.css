@@ -5,11 +5,9 @@
 
 .feature-content-infographic .feature-content-infographic-image {
     position: relative;
-    height: 90%;
-    width: 90%;
 }
 
-/* .feature-content-infographic .feature-content-infographic-image::after {
+.feature-content-infographic .feature-content-infographic-image::after {
     border-radius: 50%;
     content: '';
     position: absolute;
@@ -30,7 +28,7 @@
         top:-5rem;
     }
 
-} */
+}
 
 /* 
 .feature-content-infographic .feature-content-infographic-image:hover::after{
