@@ -3,6 +3,14 @@
     padding: 5rem 0;
 }
 
+.feature-content .feature-content__left-image{
+    height: 100%;
+}
+
+.feature-content .feature-content__left-image img{
+    object-fit: cover;
+}
+
 .feature-content .feature-content__right {
     padding: 1.5rem 2rem;
 }
