@@ -84,6 +84,7 @@ h6 {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-12 {
