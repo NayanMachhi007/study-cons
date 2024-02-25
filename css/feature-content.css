@@ -4,7 +4,7 @@
 }
 
 .feature-content .feature-content__right {
-    padding: 3rem 2rem;
+    padding: 1.5rem 2rem;
 }
 
 .feature-content .feature-content__right span {
@@ -123,7 +123,7 @@
     transition: 0.5s;
 }
 
-.feature-content .feature-content__right .feature-icon-variation a:hover{
+.feature-content .feature-content__right .feature-icon-variation a:hover {
     background: var(--black);
     color: var(--white);
 }
