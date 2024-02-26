@@ -28,7 +28,13 @@
 html {
     font-size: 10px;
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
 }
 
 
