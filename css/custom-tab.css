@@ -1,6 +1,6 @@
 /* custom tab section */
 .custom-tab {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background-color: var(-- #C9CAC9);
 
@@ -82,10 +82,7 @@ font-size: 15px;
   }
  td,  th {
     padding: 4px;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> main
 
   }
   
