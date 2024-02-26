@@ -8,6 +8,10 @@
     width: 80px;
     margin-left: 30px;
 }
+.nav-logo{
+    width: 100px;
+    height: 100px;
+}
 
 .navigation .navigation__logo img {
     mix-blend-mode: multiply;
