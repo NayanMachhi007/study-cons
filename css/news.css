@@ -19,6 +19,10 @@
     content: '';
 }
 
+.news-section .news-section__news-des{
+    padding: 2rem 0;
+}
+
 .news-section .news-section__news-des .news-des__image .news-date {
     position: absolute;
     top: 0;
