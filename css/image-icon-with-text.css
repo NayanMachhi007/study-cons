@@ -22,7 +22,7 @@
 {
     padding: 16px;
     border-radius: 5px;
-    width: 245px;
+    width: 255px;
     height: 250px;
     background-color: var(--alabaster-background);
     box-shadow:0px 0px 5px var(--cinnabar);
@@ -31,7 +31,7 @@
     padding: 0 8px;
 }
 .stream-card-container_icon-and-heading{
-    width: 211px;
+    width: 221px;
     height: 64px;
 }
 
@@ -60,7 +60,7 @@
     color: var(--cinnabar);
 }
 .image-icon-with-text__head-container{
-    padding: 5px 10px;
+    padding: 5px 7px;
 }
 .stream-card-container_heading{
     font-size:20px;
@@ -83,7 +83,7 @@
     border-bottom: 1px solid var(--pumice-txt);
     font-weight: 600;
 }
-.image-icon-with-text__stream-card-container li:nth-child(3){
+.image-icon-with-text__stream-card-container li:nth-child(9){
     border-bottom: none;
 
 }
