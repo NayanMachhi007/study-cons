@@ -1,0 +1,135 @@
+/* custom-logo-des section */
+.custom-logo-des3{
+    height:450px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.custom-logo-des3 h3{
+    font-size: 30px;
+    color: #333333;
+    padding: 20px 10%;
+    }
+    .custom-logo-des-lay3{
+        height: 350px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .left_icon3 {
+        height: 60px;
+        width: 5%;
+        position: absolute;
+        top: 31%;
+        left: 5%;
+        z-index: 5;
+    }
+    
+    .right_icon3 {
+        height: 60px;
+        width: 5%;
+        position: absolute;
+        top: 31%;
+        right:5%;
+        z-index: 5;
+    }
+    
+    .icons3 {
+        margin: 5px 2px;
+        height: 50px;
+        width: 50px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        box-sizing: border-box;
+        box-shadow: 0px 2px 2px 2px #cfcece;
+        cursor: pointer;
+    }
+    
+    .icons3 i {
+        color: var(--#474747);
+        font-size: 22px;
+        padding: 15px 15px;
+    }
+    .row3{
+        margin-top: 25px;
+        height: 300px;
+        width: 83%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .col33{
+        height: 270px;
+width: 24%;
+border-radius: 5px;
+border: 2px solid #cecdcd;
+    }
+    .col3_row3{
+        margin: 10px 0px;
+        height: 60px;
+        width: 100%;
+        display: flex;
+    }
+    .logo3{
+        height: 60px;
+        width: 30%;
+        text-align: center;
+        padding: 5PX;
+    }
+    .logo3 img{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 1px solid;
+    }
+    .name3{
+        padding: 5PX 10px;
+
+        height: 60px;
+        width: 70%;
+    }
+    .name3 button{
+margin-top: 1px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #979797;
+    }
+    .name3 p{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 3px 5px;
+
+    }
+    .name3 p:hover{
+        color: orangered;
+    }
+    .content3 span:hover{
+         color: orangered;
+    }
+.content3{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+p .left3{
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    font-size: 15px;
+    color: #979797;
+}
+p .right3{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #080808;
+}
+.line3{
+    margin:  7px 13px;
+    height: 1px;
+    width: 90%;
+    background-color: #cfcdcd;
+}
+/* end custom-logo-des section */
