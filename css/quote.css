@@ -13,7 +13,18 @@
 
         }
 
+<<<<<<< HEAD
     
+=======
+        .swiper-pagination-bullet{
+            width: 20px;
+            height: 20px;
+        }
+
+        .swiper-pagination-bullet-active{
+            background: var(--cinnabar);
+        }
+>>>>>>> main
 
 
         .swiper-slide .quote-main {
@@ -90,7 +101,7 @@
         }
 
         .quote-section .quote-title h2::after {
-            top: 13rem;
+            top: 17rem;
             content: '';
             position: absolute;
             left: 60rem;
