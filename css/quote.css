@@ -13,18 +13,21 @@
 
         }
 
-<<<<<<< HEAD
-    
-=======
-        .swiper-pagination-bullet{
-            width: 20px;
-            height: 20px;
+        .swiper-pagination-bullet {
+            padding: 0.5rem;
+            border-radius: 50%;
         }
 
-        .swiper-pagination-bullet-active{
+
+        .swiper-pagination-bullet-active {
             background: var(--cinnabar);
         }
->>>>>>> main
+
+        .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+        .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+            margin: 0 4px;
+        }
+
 
 
         .swiper-slide .quote-main {
