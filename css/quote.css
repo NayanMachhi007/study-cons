@@ -13,6 +13,9 @@
 
         }
 
+<<<<<<< HEAD
+    
+=======
         .swiper-pagination-bullet{
             width: 20px;
             height: 20px;
@@ -21,6 +24,7 @@
         .swiper-pagination-bullet-active{
             background: var(--cinnabar);
         }
+>>>>>>> main
 
 
         .swiper-slide .quote-main {

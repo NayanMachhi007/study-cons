@@ -1,0 +1,64 @@
+.config-text-des{
+    padding: 50px 0;
+}
+.config-text-des__title_division{
+    background-color: #f1f1f3;
+    height: 100vh;
+    padding: 20px;
+}
+.config-text-des__title_division h3{
+    font-size: 22px;
+    color: rgb(121, 121, 121);
+}
+.config-text-des__title_division p{
+    text-align: justify;
+    font-size: 20px;
+}
+.config-text-des__title_division p a{
+    font-size: 18px;
+}
+
+.config-text-des__title_division .line{
+    width: 100%;
+    height: 1px;
+margin: 10px 0px;    background-color: rgb(121, 121, 121);
+}
+.config-text-des__title_division h2{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.config-text-des__title_division h2 span{
+    color: var(--cinnabar);
+}
+.config-text-des__detail-and-para_container{
+    background-color:#fbfcff;
+    height: 100vh;
+}
+.config-text-des__detail-and-para_container h2{
+    font-size: 36px;
+    font-weight: 300;
+    /* height: 110px; */
+    padding-bottom: 30px;
+}
+.config-text-des__detail-and-para_container_paragraph{
+    padding: 10px 10px 15px 0 ;
+}
+.config-text-des__detail-and-intro-para_container_paragraph{
+    padding: 0 20px 20px 0;
+}
+.config-text-des__detail-and-intro-para_container_paragraph p{
+    font-size: 18px;
+    width: 80%;
+
+
+}
+.config-text-des__detail-and-para_container_paragraph p{
+    width: 80%;
+    font-size: 16px;
+}
+.config-text-des__detail-and-para_container_img-division{   
+    text-align: center;
+    height: 400px;
+    width: 400px;
+}
