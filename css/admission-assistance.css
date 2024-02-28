@@ -1,0 +1,12 @@
+.admission-assistance__heading{
+    font-size: 24px;
+}
+.admission-assistance__heading span{
+    color: var(--cinnabar);
+}
+.admission-assistance__img{
+    padding: 10px 0;
+}
+.admission-assistance__para p{
+    padding: 10px 0;
+}
