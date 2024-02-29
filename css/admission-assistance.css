@@ -41,3 +41,11 @@
 .admission-assistance_last_heading span{
     color: var(--cinnabar);
 }
+.admission-assistance_last_heading a{
+    font-size: 26px;
+    font-weight: 500;
+    color:var(--cinnabar);
+}
+.admission-assistance_last_heading a:hover{
+    color: var(--black);
+}
