@@ -23,7 +23,7 @@
 }
 
 .signpost-icon .signpost-icon__title h2::after {
-    top: 13rem;
+    top: 16rem;
     content: '';
     position: absolute;
     left: 61rem;

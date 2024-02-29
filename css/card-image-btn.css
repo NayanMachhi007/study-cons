@@ -1,0 +1,99 @@
+/* card-image-btn */
+.card-image-btn{
+    height: 150vh;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+/* heading section */
+
+.card-image-btn-headline{
+    padding: 50px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+.card-image-btn-headline h3{
+    font-size: 30px;
+    color: #48639e;
+    font-weight: 600;
+}
+.card-image-btn-headline p{
+    color: #9d9d9d;
+}
+/* end heading section */
+/*  button section */
+.button_section{
+    height: 100vh;
+    width: 100%;
+
+}
+.button_section .row{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;  
+}
+.row .col4{
+    height: 300px;
+    width: 30%;
+    background-color:white;
+    border-radius: 5px;
+}
+.col4 .image{
+    height: 150px;
+    width: 100%;
+}
+.col4 .button{
+    width: 100%; 
+    display: flex;
+    padding:20px 3px;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btn {
+    display: flex;
+/* width: 80px; */
+height: 30px;
+   background-color: white;
+    
+    font-size: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+border: 2px solid #f3993f;
+    border-radius: 12px;
+}
+
+.btn-i {
+    padding: 5px 7px;
+    background-color: #f3993f;
+    color: white;
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.butn {
+    font-size: 1px;
+    font-weight: 100;
+background-color: white;
+color: black;
+    padding: 5px 12px;
+    border-radius: 0px 10px 10px 0px;
+
+    
+}
+
+.butn a {
+    color: black;
+    text-decoration: none;
+}
+
+.butn a:hover {
+    color: #f3993f;
+}
+
+.col4:hover {
+    box-sizing: border-box;
+box-shadow:0px 2px 2px 2px #9d9d9d;}
+/* end button section */
+/* end card-image-btn */
