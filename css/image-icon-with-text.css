@@ -8,9 +8,7 @@
 .image-icon-with-text__content__heading{
     padding: 0 15px;
 }
-.image-icon-with-text__content__heading h2 span{
-    color: var(--cinnabar);
-}
+
 .image-icon-with-text__content h2{
     font-size: 28px;
     margin-bottom: 24px;
