@@ -1,6 +1,6 @@
 .bod-section {
     height: 120vh;
-   
+
 }
 
 .bod-section .bod-title {
@@ -41,6 +41,8 @@
 }
 
 .bod-section .bod-people img {
+    width: 23.9rem;
+    height: 25.4rem;
     position: relative;
     border-radius: 5px;
     border-bottom: 5px solid var(--cinnabar);
