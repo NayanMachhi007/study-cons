@@ -1,5 +1,4 @@
 .bod-section {
-    height: 120vh;
     background: var(--alabaster-background);
 }
 
@@ -25,10 +24,10 @@
 }
 
 .bod-section .bod-title h2::after {
-    top: 13rem;
+    top: 18rem;
     content: '';
     position: absolute;
-    left: 61rem;
+    left: 54rem;
     bottom: 0rem;
     width: 6%;
     margin: auto;
@@ -41,6 +40,7 @@
 }
 
 .bod-section .bod-people img {
+    height: 288px;
     position: relative;
     border-radius: 5px;
     border-bottom: 5px solid var(--cinnabar);
