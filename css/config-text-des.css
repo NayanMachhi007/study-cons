@@ -96,7 +96,7 @@ border: 2px solid #cecdcd;
     font-size: 14px;
     font-weight:bold;
 }
-span{
+.span-config-text{
     display: inline-block;
     padding: 10px 0px;
     font-size: 12px;
@@ -108,7 +108,7 @@ font-size: 15px;
 font-weight: 400;
 }
 
-    .content2:hover span{
+    .content2:hover .span-config-text{
         color: orangered;
     }
     .content12{

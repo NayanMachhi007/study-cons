@@ -47,9 +47,8 @@
 }
 
 .blog-section .blog-details .blog-main {
-    height: 47vh;
+    height: 50vh;
     width: 100%;
-    border: 1px solid var(--pumice-txt);
     padding: 1rem;
 }
 
