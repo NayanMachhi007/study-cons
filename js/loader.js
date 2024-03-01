@@ -14,5 +14,5 @@
 document.addEventListener("DOMContentLoaded", function () {
   setTimeout(function () {
     document.getElementById("loading").style.display = "none";
-  }, 5000); // 5000 milliseconds = 5 seconds
+  }, 1000); // 5000 milliseconds = 5 seconds
 });
