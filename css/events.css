@@ -5,7 +5,7 @@
 
 .events-section .events-date {
     background: var(--anti-glash-white);
-    padding: 4rem;
+    padding: 5.7rem 3.7rem;
     text-align: center;
     margin: 2rem;
 }
@@ -40,7 +40,7 @@
 /* Events Details Block */
 
 .events-section .events-details{
-    padding: 4.6rem 2rem;
+    padding: 5.7rem 2rem;
         background: var(--anti-glash-white);
         margin: 2rem 0;
 }
