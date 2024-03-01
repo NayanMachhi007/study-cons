@@ -8,6 +8,7 @@
     padding: 5.7rem 3.7rem;
     text-align: center;
     margin: 2rem;
+    height: 30rem;
 }
 /* Events Date Block */
 .events-section .events-date i {
@@ -43,6 +44,7 @@
     padding: 5.7rem 2rem;
         background: var(--anti-glash-white);
         margin: 2rem 0;
+        height: 30rem;
 }
 
 .events-section .events-details h4{
