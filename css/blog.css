@@ -1,6 +1,4 @@
-.blog-section {
-    height: 166vh;
-}
+
 
 .blog-section .blog-title {
     text-align: center;
@@ -23,10 +21,10 @@
 }
 
 .blog-section .blog-title h2::after {
-    top: 13rem;
+    top: 16rem;
     content: '';
     position: absolute;
-    left: 61rem;
+    left: 60rem;
     bottom: 0rem;
     width: 6%;
     margin: auto;
@@ -47,9 +45,8 @@
 }
 
 .blog-section .blog-details .blog-main {
-    height: 47vh;
+    height: 50vh;
     width: 100%;
-    border: 1px solid var(--pumice-txt);
     padding: 1rem;
 }
 
