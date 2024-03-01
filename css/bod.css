@@ -28,7 +28,7 @@
     top: 18rem;
     content: '';
     position: absolute;
-    left: 60rem;
+    left: 55rem;
     bottom: 0rem;
     width: 6%;
     margin: auto;
@@ -41,8 +41,8 @@
 }
 
 .bod-section .bod-people img {
-    width: 23.9rem;
-    height: 25.4rem;
+    width: 20.9rem;
+    height: 20.9rem;
     position: relative;
     border-radius: 5px;
     border-bottom: 5px solid var(--cinnabar);
