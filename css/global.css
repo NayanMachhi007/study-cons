@@ -160,6 +160,10 @@ h6 {
     margin: 1rem;
 }
 
+.h-50{
+    height: 50vh;
+}
+
 .heading-red {
     color: var(--cinnabar);
     font-weight: 600;
