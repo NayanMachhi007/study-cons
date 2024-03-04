@@ -24,7 +24,7 @@
     top: 16rem;
     content: '';
     position: absolute;
-    left: 61rem;
+    left: 55rem;
     bottom: 0rem;
     width: 6%;
     margin: auto;
@@ -47,7 +47,6 @@
 .blog-section .blog-details .blog-main {
     height: 50vh;
     width: 100%;
-    padding: 1rem;
 }
 
 .blog-section .blog-details .blog-main:hover{
@@ -76,7 +75,7 @@
 .blog-section .blog-details .blog-main .blog-short i {
     color: var(--cinnabar);
     font-size: 1.4rem;
-    padding: 1.3rem 1.4rem;
+    padding: 1.3rem 0.5rem;
 }
 
 .blog-section .blog-details .blog-main .blog-short p {

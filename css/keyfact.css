@@ -22,10 +22,10 @@
 }
 
 .keyfact .keyfact-title h2::after {
-    top: 13rem;
+    top: 14rem;
     content: '';
     position: absolute;
-    left: 61rem;
+    left: 55rem;
     bottom: 0rem;
     width: 6%;
     margin: auto;
