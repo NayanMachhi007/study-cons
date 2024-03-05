@@ -2,6 +2,7 @@
     padding: 50px 0;
 }
 .provide-career-guidance__title_division{
+  overflow: hidden;
     background-color: #f1f1f3;
     height: 100vh;
     padding: 20px;
