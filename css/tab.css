@@ -1,7 +1,7 @@
    .tabs {
        position: relative;
        overflow: hidden;
-       height: 80vh;
+       height: 70vh;
        width: 100%;
        padding: 2rem;
 
@@ -37,16 +37,42 @@
    }
 
    .tabs .tabs-content .tabs-content-left {
-       width: 30rem;
+       width: 100%;
        height: 30rem;
-       border: 1px solid var(--pumice-txt);
        padding: 1rem;
        border-radius: 1rem;
        margin: 1rem;
 
    }
 
-   .tabs .tabs-content .tabs-content-left span {
+   .tabs .tabs-content .tabs-content-left .tab-img {
+       position: relative;
+       border-radius: 20px;
+       
+   }
+
+   .tabs .tabs-content .tabs-content-left .tab-secondary-heading {
+       font-size: 4.4rem;
+       position: absolute;
+       top: 42%;
+       color: var(--elephant);
+       left: 50%;
+       transform: translate(-50%, -50%);
+   }
+
+   .tabs .tabs-content .tabs-content-left .tab-link {
+       font-size: 1.6rem;
+       left: 49%;
+       position: absolute;
+       top: 57%;
+       color: var(--cinnabar);
+       transform: translate(-50%, -50%);
+       font-weight: 800;
+   }
+
+
+
+   /* .tabs .tabs-content .tabs-content-left span {
        padding: 0.5rem 1rem;
        background: var(--pumice-txt);
 
@@ -85,9 +111,9 @@
        height: 10rem;
        width: 100%;
        border: none;
-   }
+   } */
 
 
    #content1 {
-       transform: translatex(0px);
+       transform: translatex(-11.3%);
    }

@@ -7,19 +7,19 @@ let btn2 = document.getElementById("btn2");
 let btn3 = document.getElementById("btn3");
 
 function openbtn1() {
-  content1.style.transform = "translatex(0)";
+  content1.style.transform = "translatex(-11.3%)";
   content2.style.transform = "translatex(100%)";
   content3.style.transform = "translatex(100%)";
 }
 
 function openbtn2() {
   content1.style.transform = "translatex(100%)";
-  content2.style.transform = "translatex(0)";
+  content2.style.transform = "translatex(-11.3%)";
   content3.style.transform = "translatex(100%)";
 }
 
 function openbtn3() {
   content1.style.transform = "translatex(100%)";
   content2.style.transform = "translatex(100%)";
-  content3.style.transform = "translatex(0)";
+  content3.style.transform = "translatex(-11.3%)";
 }
