@@ -1,0 +1,63 @@
+.abroad-study-options__heading{
+    font-size: 28px;
+}
+.abroad-study-options__heading_span{
+    color: var(--cinnabar);
+}
+
+.abroad-study-options__card_container_item{
+    padding: 10px;
+}
+.abroad-study-options__card_container{
+    display: flex;
+    padding: 10px 0;
+}
+.abroad-study-options__card_container_item_details{
+    position: relative;
+}
+
+.abroad-study-options__card_container_item_details_img-container{
+    height: 150px;
+}
+.abroad-study-options__card_container_item_details_img-container img{
+    border-radius: 5px 5px 0 0;
+}
+.abroad-study-options__card_container_item_details_country_name{
+    padding: 0 15px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 125px;
+}
+
+.abroad-study-options__card_container_item_details_country_name_icon{
+    font-size: 40px;
+    border-radius: 50%;
+    background-color: var(--white);
+    color: var(--cinnabar);
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.abroad-study-options__card_container_item_details_country_name_icon img{
+    border-radius: 50%;
+    /* object-fit: cover; */
+
+}
+.abroad-study-options__card_container_item_details_country_name_heading_level_four{
+    font-size: 18px;
+    line-height: 70px;
+}
+.abroad-study-options__card_container_item_details__para{
+    padding: 40px 5px 10px 5px;
+}
+.abroad-study-options__card_container_item_details__para a{
+    font-size:16px ;
+}
+.abroad-study-options__card_container_item_details__readmore a{
+    font-size:16px ;
+    font-weight: 600;
+}
+.abroad-study-options__card_container_item_details__readmore a:hover{
+    color: var(--cinnabar);
+}

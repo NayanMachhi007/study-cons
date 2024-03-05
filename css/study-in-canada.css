@@ -1,20 +1,14 @@
-/* custom tab section */
-.custom-tab {
-    height: 100vh;
+.study-abroad-details{
+    padding: 0 0 50px 0;
+}
+
+/* custom-tab__button */
+.custom-tab__button .button-container {
+    height: 70px;
     width: 100%;
-    background-color: var(-- #C9CAC9);
-
+    display: flex;
+    /* flex-wrap: ; */
 }
-
-.custom-tab h3 {
-    padding-top: 30px;
-    padding-left: 10%;
-    padding-bottom: 10px;
-    font-size: 30px;
-    color: var(--#262E2E);
-    font-weight: 800;
-}
-
 /* custom-tab button */
 
 .custom-tab__button .button-container {
@@ -23,34 +17,6 @@
     display: flex;
     /* flex-wrap: ; */
 }
-
-.left_icon {
-    height: 60px;
-    width: 5%;
-}
-
-.right_icon {
-    height: 60px;
-    width: 5%;
-}
-
-.icons {
-    margin: 5px 2px;
-    height: 50px;
-    width: 50px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    box-sizing: border-box;
-    box-shadow: 0px 2px 2px 2px #cfcece;
-    cursor: pointer;
-}
-
-.icons i {
-    color: var(--#474747);
-    font-size: 22px;
-    padding: 15px 15px;
-}
-
 .buttons {
     height: 60px;
     width: 100%;
@@ -67,20 +33,18 @@
     border: 1px solid;
     background-color: #fff;
     background-color: var(--alabaster-background);
-
 }
 .btn a:hover{
     color: var(--cinnabar);
 }
-
 /* end custom-tab button */
 /* custom-tab table */
 .custom_tab_table .table-container {
     height: 500px;
     width: 100%;
 }
-.table-container table{
-font-size: 15px;
+table{
+    font-size: 18px;
     border-collapse: collapse;
     width: 100%;
   }
@@ -89,8 +53,9 @@ font-size: 15px;
 
   }
  td,  th {
-    padding: 4px;
     cursor: pointer;
+    padding: 10px;
+
 
   }
   
@@ -132,5 +97,44 @@ td span{
     width: 40px;
     border-radius: 50%;
 }
+td,th{
+    /* border: 1px solid black; */
+    text-align: left;
+}
+
 /* end custom-tab table */
-/* end custom-tab section*/
+
+
+.font32{
+    font-size: 32px;
+}
+.study-in-canada__heading-level-two{
+    padding: 20px 0;
+}
+
+.study-in-canada__heading-level-two_span{
+    color: var(--cinnabar);
+}
+.study-in-canada__heading_para_container{
+    padding: 10px 0;    
+}
+.study-in-canada__heading_para{
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.iframe-study{
+    height: 500px;
+}
+.orderedlist {
+    list-style: disc;
+    font-size: 18px;
+}
+.orderedlist li{
+    padding: 5px 0;
+}
+.sub-heading{
+    font-size: 20px;
+    padding: 10px 0;
+
+}
